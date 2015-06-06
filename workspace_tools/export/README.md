@@ -255,6 +255,18 @@ Exporter IDE/Platform Support
         <td>&#10003;</td>
     </tr>
     <tr>
+        <td>LANINV1</td>
+        <td>-</td>
+        <td>&#10003;</td>
+        <td>-</td>
+        <td>&#10003;</td>
+        <td>&#10003;</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>&#10003;</td>
+    </tr>
+    <tr>
         <td>DISCO_F429ZI</td>
         <td>-</td>
         <td>&#10003;</td>

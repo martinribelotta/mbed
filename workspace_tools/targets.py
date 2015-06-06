@@ -854,6 +854,12 @@ class NZ32ST1L(Target):
         self.supported_toolchains = ["ARM", "uARM", "GCC_ARM"]
         self.default_toolchain = "uARM"
 
+class LANINV1(Target):
+    def __init__(self):
+        Target.__init__(self)
+        self.core = "Cortex-M4F"
+        self.extra_labels = ['STM', 'STM32F4', 'STM32F407', 'STM32F407IG']
+        self.supported_toolchains = ["ARM", "uARM", "GCC_ARM"]
 
 ### Nordic ###
 
@@ -1324,6 +1330,7 @@ TARGETS = [
     DISCO_F303VC(),
     DISCO_F334C8(),
     DISCO_F407VG(), # STM32F407
+    LANINV1(),
     ARCH_MAX(),     # STM32F407
     DISCO_F429ZI(),
     DISCO_L053C8(),

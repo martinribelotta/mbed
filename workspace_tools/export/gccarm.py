@@ -46,6 +46,7 @@ class GccArm(Exporter):
         'DISCO_F100RB',
         'DISCO_F051R8',
         'DISCO_F407VG',
+        'LANINV1',
         'DISCO_F303VC',
         'UBLOX_C027',
         'ARCH_PRO',
